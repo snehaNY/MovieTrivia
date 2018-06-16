@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Trivia Quiz!</title>
+	<link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">   	   
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class ="row">
+	<div class="col-lg-12"> <p class="text-center"> SCARY MOVIE TRIVIA </p></div>
+	</div>
+	<div class ="row" >
+		<div class="col-lg-12" id="yellow_bg">
+			<div id="gameDiv">
+			<p class="text-center"> Time remaining : <span id="displayTime">10 seconds</span></p>
+			<p class="text-center"> <span id="disp"> </span></p>	
+			<div id="optionDiv" class="center"></div>
+			<div id="imgDiv" class="img_center"></div>
+			</div>	
+			<div id="gameResult">
+				<p class="text-center"> <span id="result" class="gameRules"> </span></p>
+			</div>
+			<button type="button" class="start" onclick="startGame()">START</button>		
+		</div>
+	</div>		
+	<script type="text/javascript" src="javascript/game.js"></script>
+</body>
+</html>

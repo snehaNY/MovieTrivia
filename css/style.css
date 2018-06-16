@@ -1,0 +1,57 @@
+body {
+	font-family: 'Eater';
+	font-size:60px;
+	color: #777777;
+	background-image: url("../images/leather_1.png");
+  }
+  
+#gameDiv {
+	
+	font-size:30px;
+	
+  }
+  
+#gameRules{
+	font-size:30px;
+	line-height: 50px;
+}
+
+#yellow_bg{
+	background-image: url("../images/halftone-yellow.png");
+	width: 100%;
+	height: 450px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;       
+}
+
+.img_center{
+	margin: auto;
+	margin-left: 500px;
+	width: 40%;
+}
+
+
+.temp_center {
+    margin: auto;    
+    padding: 10px;
+}
+
+.button_img{
+	background-image: url("../images/leather_1.png");
+}
+
+.start {
+    position: absolute;
+    left: 45%;
+	top:20%;
+	background-image: url("../images/leather_1.png");
+	
+}
+
+button:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	cursor:pointer;
+}
